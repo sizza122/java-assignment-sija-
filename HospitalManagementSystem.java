@@ -56,8 +56,8 @@ class Patient extends Person {
 public class HospitalManagementSystem {
     public static void main(String[] args) {
         try {
-            Doctor doc = new Doctor("Dr.Raj", 21, "Cardiology");
-            Patient pat = new Patient("Karan", 21, "Flu");
+            Doctor doc = new Doctor("Dr.sija", 21, "Cardiology");
+            Patient pat = new Patient("shreejan", 21, "Flu");
 
             System.out.println("Doctor: " + doc.getName() + ", Specialization: " + doc.getSpecialization());
             System.out.println("Patient: " + pat.getName() + ", Disease: " + pat.getDisease());
@@ -66,3 +66,4 @@ public class HospitalManagementSystem {
         }
     }
 }
+
