@@ -58,9 +58,9 @@ class Freelancer extends TaxPayer {
 public class TaxSystem {
     public static void main(String[] args) {
         try {
-            TaxPayer p1 = new Individual("Raj", 50000);
+            TaxPayer p1 = new Individual("sija", 50000);
             TaxPayer p2 = new Business("karan", 200000);
-            TaxPayer p3 = new Freelancer("binaya", 80000);
+            TaxPayer p3 = new Freelancer("rasu", 80000);
 
             System.out.println(p1.getName() + " Tax: $" + p1.calculateTax());
             System.out.println(p2.getName() + " Tax: $" + p2.calculateTax());
@@ -70,3 +70,4 @@ public class TaxSystem {
         }
     }
 }
+
