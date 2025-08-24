@@ -60,8 +60,8 @@ class Developer extends Employee {
 public class Employeemgmtsys {
     public static void main(String[] args) {
         try {
-            Employee m = new Manager("Raj", 50000, 10000);
-            Employee d = new Developer("Shrestha", 40000, 5000);
+            Employee m = new Manager("sija", 50000, 10000);
+            Employee d = new Developer("magar", 40000, 5000);
 
             System.out.println(m.getName() + " Salary: " + m.calculateSalary());
             System.out.println(d.getName() + " Salary: " + d.calculateSalary());
@@ -70,3 +70,4 @@ public class Employeemgmtsys {
         }
     }
 }
+
