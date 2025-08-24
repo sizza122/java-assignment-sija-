@@ -77,7 +77,7 @@ public class OnlinePaymentGateway {
             Payment[] payments = {
                     new CreditCard(5000, "1234567812345678"),
                     new UPI(1500, "lol"),
-                    new NetBanking(3000, "Raj")
+                    new NetBanking(3000, "sija")
             };
 
             for (Payment payment : payments) {
@@ -88,3 +88,4 @@ public class OnlinePaymentGateway {
         }
     }
 }
+
