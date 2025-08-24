@@ -77,7 +77,7 @@ class Guest extends LibraryMember {
 public class LibrarySystem {
     public static void main(String[] args) {
         try {
-            LibraryMember s = new Student("Raj");
+            LibraryMember s = new Student("sija");
             LibraryMember t = new Teacher("Karan");
             LibraryMember g = new Guest("Binaya");
 
@@ -94,3 +94,4 @@ public class LibrarySystem {
         }
     }
 }
+
